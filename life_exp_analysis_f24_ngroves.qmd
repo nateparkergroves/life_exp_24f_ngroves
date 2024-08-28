@@ -15,9 +15,7 @@ gapminder::gapminder_unfiltered|>
   sumdat
 ```
 
-\
-\
+```{r}
+str(sumdat)
 
-\
-
-\
+```
