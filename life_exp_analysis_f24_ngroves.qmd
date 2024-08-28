@@ -1,0 +1,11 @@
+---
+title: "life_exp_f24_ngroves"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+\
