@@ -6,6 +6,18 @@ editor: visual
 
 ```{r}
 library(tidyverse)
+gapminder::gapminder_unfiltered|>
+  group_by(year)|>
+  filter(lifeExp == max(lifeExp))|>
+  ungroup()|>
+  select(year, country, lifeExp) |>
+  arrange(year) ->
+  sumdat
 ```
+
+\
+\
+
+\
 
 \
